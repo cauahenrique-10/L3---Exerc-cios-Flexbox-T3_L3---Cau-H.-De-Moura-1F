@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.faixa {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 1rem;
+  min-height: 30rem;
+  padding: 1rem;
+  background-color: #eef1f6;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 14rem;
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+}
